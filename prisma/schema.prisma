@@ -1,0 +1,28 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model common_company_config {
+  id                       Int                   @id @default(autoincrement())
+  freight                  common_freight_config @relation(fields: [common_freight_config_id], references: [id])
+  common_freight_config_id Int                   @unique
+}
+
+model common_freight_config {
+  id                    Int                     @id @default(autoincrement())
+  currency              currency_enum
+  common_company_config common_company_config[]
+}
+
+enum currency_enum {
+  brl
+  usd
+}
