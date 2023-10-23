@@ -1,4 +1,4 @@
-import { CompanyConfig } from 'src/common/domain/company-config';
+import { IConfig } from 'src/common/domain/interface/config.interface';
 
 type NestedKeyOf<ObjectType extends object> = {
   [Key in keyof ObjectType & (string | number)]: ObjectType[Key] extends object
@@ -6,7 +6,7 @@ type NestedKeyOf<ObjectType extends object> = {
     : `${Key}`;
 }[keyof ObjectType & (string | number)];
 
-export function Config(str: NestedKeyOf<CompanyConfig>) {
+export function Config(str: NestedKeyOf<IConfig>) {
   return function (target: Function) {
     Reflect.defineMetadata('companyConfig', str, target.prototype);
   };

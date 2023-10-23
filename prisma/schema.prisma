@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -20,6 +17,53 @@ model common_freight_config {
   id                    Int                     @id @default(autoincrement())
   currency              currency_enum
   common_company_config common_company_config[]
+}
+
+model common_city {
+  id                  Int                   @id @default(autoincrement())
+  createdAt           DateTime              @default(now()) @db.Timestamp()
+  updatedAt           DateTime              @default(now()) @updatedAt @db.Timestamp()
+  name                String                @db.VarChar(255)
+  uf                  String                @db.VarChar(255)
+  apiId               String?               @db.VarChar(255)
+  freight_origin      freight_origin[]
+  freight_destination freight_destination[]
+}
+
+model freight_origin {
+  id             Int             @id @default(autoincrement())
+  createdAt      DateTime        @default(now()) @db.Timestamp()
+  updatedAt      DateTime        @default(now()) @updatedAt @db.Timestamp()
+  name           String          @db.VarChar(255)
+  city           common_city     @relation(fields: [common_city_id], references: [id])
+  common_city_id Int
+  freight_value  freight_value[]
+}
+
+model freight_destination {
+  id             Int             @id @default(autoincrement())
+  createdAt      DateTime        @default(now()) @db.Timestamp()
+  updatedAt      DateTime        @default(now()) @updatedAt @db.Timestamp()
+  name           String          @db.VarChar(255)
+  city           common_city     @relation(fields: [common_city_id], references: [id])
+  common_city_id Int
+  freight_value  freight_value[]
+}
+
+model freight_value {
+  origin    freight_origin      @relation(fields: [freight_originId], references: [id])
+  destiny   freight_destination @relation(fields: [freight_destinationId], references: [id])
+  createdAt DateTime            @default(now()) @db.Timestamp()
+  updatedAt DateTime            @default(now()) @updatedAt @db.Timestamp()
+  value     Float
+  currency  currency_enum
+  month     Int
+  year      Int
+
+  freight_originId      Int
+  freight_destinationId Int
+
+  @@id([freight_originId, freight_destinationId, month, year])
 }
 
 enum currency_enum {

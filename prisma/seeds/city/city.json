@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Alta Floresta DOeste",
+    "uf": "RO",
+    "apiId": "1100015"
+  },
+  {
+    "id": 2,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Ariquemes",
+    "uf": "RO",
+    "apiId": "1100023"
+  },
+  {
+    "id": 3,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Cabixi",
+    "uf": "RO",
+    "apiId": "1100031"
+  },
+  {
+    "id": 4,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Cacoal",
+    "uf": "RO",
+    "apiId": "1100049"
+  },
+  {
+    "id": 5,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Cerejeiras",
+    "uf": "RO",
+    "apiId": "1100056"
+  },
+  {
+    "id": 6,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Colorado do Oeste",
+    "uf": "RO",
+    "apiId": "1100064"
+  },
+  {
+    "id": 7,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Corumbiara",
+    "uf": "RO",
+    "apiId": "1100072"
+  },
+  {
+    "id": 8,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Costa Marques",
+    "uf": "RO",
+    "apiId": "1100080"
+  },
+  {
+    "id": 9,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Espigão D'Oeste",
+    "uf": "RO",
+    "apiId": "1100098"
+  },
+  {
+    "id": 10,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Guajará-Mirim",
+    "uf": "RO",
+    "apiId": "1100106"
+  },
+  {
+    "id": 11,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Jaru",
+    "uf": "RO",
+    "apiId": "1100114"
+  },
+  {
+    "id": 12,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Ji-Paraná",
+    "uf": "RO",
+    "apiId": "1100122"
+  },
+  {
+    "id": 13,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Machadinho D'Oeste",
+    "uf": "RO",
+    "apiId": "1100130"
+  },
+  {
+    "id": 14,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Nova Brasilândia D'Oeste",
+    "uf": "RO",
+    "apiId": "1100148"
+  },
+  {
+    "id": 15,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Ouro Preto do Oeste",
+    "uf": "RO",
+    "apiId": "1100155"
+  },
+  {
+    "id": 16,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Pimenta Bueno",
+    "uf": "RO",
+    "apiId": "1100189"
+  },
+  {
+    "id": 17,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Porto Velho",
+    "uf": "RO",
+    "apiId": "1100205"
+  },
+  {
+    "id": 18,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Presidente Médici",
+    "uf": "RO",
+    "apiId": "1100254"
+  },
+  {
+    "id": 19,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Rio Crespo",
+    "uf": "RO",
+    "apiId": "1100262"
+  },
+  {
+    "id": 20,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Rolim de Moura",
+    "uf": "RO",
+    "apiId": "1100288"
+  },
+  {
+    "id": 21,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Santa Luzia D'Oeste",
+    "uf": "RO",
+    "apiId": "1100296"
+  },
+  {
+    "id": 22,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Vilhena",
+    "uf": "RO",
+    "apiId": "1100304"
+  },
+  {
+    "id": 23,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "São Miguel do Guaporé",
+    "uf": "RO",
+    "apiId": "1100320"
+  },
+  {
+    "id": 24,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Nova Mamoré",
+    "uf": "RO",
+    "apiId": "1100338"
+  },
+  {
+    "id": 25,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Alvorada D'Oeste",
+    "uf": "RO",
+    "apiId": "1100346"
+  },
+  {
+    "id": 26,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Alto Alegre dos Parecis",
+    "uf": "RO",
+    "apiId": "1100379"
+  },
+  {
+    "id": 27,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Alto Paraíso",
+    "uf": "RO",
+    "apiId": "1100403"
+  },
+  {
+    "id": 28,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Buritis",
+    "uf": "RO",
+    "apiId": "1100452"
+  },
+  {
+    "id": 29,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Novo Horizonte do Oeste",
+    "uf": "RO",
+    "apiId": "1100502"
+  },
+  {
+    "id": 30,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Cacaulândia",
+    "uf": "RO",
+    "apiId": "1100601"
+  },
+  {
+    "id": 31,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Campo Novo de Rondônia",
+    "uf": "RO",
+    "apiId": "1100700"
+  },
+  {
+    "id": 32,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Candeias do Jamari",
+    "uf": "RO",
+    "apiId": "1100809"
+  },
+  {
+    "id": 33,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Castanheiras",
+    "uf": "RO",
+    "apiId": "1100908"
+  },
+  {
+    "id": 34,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Chupinguaia",
+    "uf": "RO",
+    "apiId": "1100924"
+  },
+  {
+    "id": 35,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Cujubim",
+    "uf": "RO",
+    "apiId": "1100940"
+  },
+  {
+    "id": 36,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Governador Jorge Teixeira",
+    "uf": "RO",
+    "apiId": "1101005"
+  },
+  {
+    "id": 37,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Itapuã do Oeste",
+    "uf": "RO",
+    "apiId": "1101104"
+  },
+  {
+    "id": 38,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Ministro Andreazza",
+    "uf": "RO",
+    "apiId": "1101203"
+  },
+  {
+    "id": 39,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Mirante da Serra",
+    "uf": "RO",
+    "apiId": "1101302"
+  },
+  {
+    "id": 40,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Monte Negro",
+    "uf": "RO",
+    "apiId": "1101401"
+  },
+  {
+    "id": 41,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Nova União",
+    "uf": "RO",
+    "apiId": "1101435"
+  },
+  {
+    "id": 42,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Parecis",
+    "uf": "RO",
+    "apiId": "1101450"
+  },
+  {
+    "id": 43,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Pimenteiras do Oeste",
+    "uf": "RO",
+    "apiId": "1101468"
+  },
+  {
+    "id": 44,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Primavera de Rondônia",
+    "uf": "RO",
+    "apiId": "1101476"
+  },
+  {
+    "id": 45,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "São Felipe D'Oeste",
+    "uf": "RO",
+    "apiId": "1101484"
+  },
+  {
+    "id": 46,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "São Francisco do Guaporé",
+    "uf": "RO",
+    "apiId": "1101492"
+  },
+  {
+    "id": 47,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Seringueiras",
+    "uf": "RO",
+    "apiId": "1101500"
+  },
+  {
+    "id": 48,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Teixeirópolis",
+    "uf": "RO",
+    "apiId": "1101559"
+  },
+  {
+    "id": 49,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Theobroma",
+    "uf": "RO",
+    "apiId": "1101609"
+  },
+  {
+    "id": 50,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Urupá",
+    "uf": "RO",
+    "apiId": "1101708"
+  },
+  {
+    "id": 51,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Vale do Anari",
+    "uf": "RO",
+    "apiId": "1101757"
+  },
+  {
+    "id": 52,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Vale do Paraíso",
+    "uf": "RO",
+    "apiId": "1101807"
+  },
+  {
+    "id": 53,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Acrelândia",
+    "uf": "AC",
+    "apiId": "1200013"
+  },
+  {
+    "id": 54,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Assis Brasil",
+    "uf": "AC",
+    "apiId": "1200054"
+  },
+  {
+    "id": 55,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Brasiléia",
+    "uf": "AC",
+    "apiId": "1200104"
+  },
+  {
+    "id": 56,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Bujari",
+    "uf": "AC",
+    "apiId": "1200138"
+  },
+  {
+    "id": 57,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Capixaba",
+    "uf": "AC",
+    "apiId": "1200179"
+  },
+  {
+    "id": 58,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Cruzeiro do Sul",
+    "uf": "AC",
+    "apiId": "1200203"
+  },
+  {
+    "id": 59,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Epitaciolândia",
+    "uf": "AC",
+    "apiId": "1200252"
+  },
+  {
+    "id": 60,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Feijó",
+    "uf": "AC",
+    "apiId": "1200302"
+  },
+  {
+    "id": 61,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Jordão",
+    "uf": "AC",
+    "apiId": "1200328"
+  },
+  {
+    "id": 62,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Mâncio Lima",
+    "uf": "AC",
+    "apiId": "1200336"
+  },
+  {
+    "id": 63,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Manoel Urbano",
+    "uf": "AC",
+    "apiId": "1200344"
+  },
+  {
+    "id": 64,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Marechal Thaumaturgo",
+    "uf": "AC",
+    "apiId": "1200351"
+  },
+  {
+    "id": 65,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Plácido de Castro",
+    "uf": "AC",
+    "apiId": "1200385"
+  },
+  {
+    "id": 66,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Porto Walter",
+    "uf": "AC",
+    "apiId": "1200393"
+  },
+  {
+    "id": 67,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Rio Branco",
+    "uf": "AC",
+    "apiId": "1200401"
+  },
+  {
+    "id": 68,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Rodrigues Alves",
+    "uf": "AC",
+    "apiId": "1200427"
+  },
+  {
+    "id": 69,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Santa Rosa do Purus",
+    "uf": "AC",
+    "apiId": "1200435"
+  },
+  {
+    "id": 70,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Senador Guiomard",
+    "uf": "AC",
+    "apiId": "1200450"
+  },
+  {
+    "id": 71,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Sena Madureira",
+    "uf": "AC",
+    "apiId": "1200500"
+  },
+  {
+    "id": 72,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Tarauacá",
+    "uf": "AC",
+    "apiId": "1200609"
+  },
+  {
+    "id": 73,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Xapuri",
+    "uf": "AC",
+    "apiId": "1200708"
+  },
+  {
+    "id": 74,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Porto Acre",
+    "uf": "AC",
+    "apiId": "1200807"
+  },
+  {
+    "id": 75,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Alvarães",
+    "uf": "AM",
+    "apiId": "1300029"
+  },
+  {
+    "id": 76,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Amaturá",
+    "uf": "AM",
+    "apiId": "1300060"
+  },
+  {
+    "id": 77,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Anamã",
+    "uf": "AM",
+    "apiId": "1300086"
+  },
+  {
+    "id": 78,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Anori",
+    "uf": "AM",
+    "apiId": "1300102"
+  },
+  {
+    "id": 79,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Apuí",
+    "uf": "AM",
+    "apiId": "1300144"
+  },
+  {
+    "id": 80,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Atalaia do Norte",
+    "uf": "AM",
+    "apiId": "1300201"
+  },
+  {
+    "id": 81,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Autazes",
+    "uf": "AM",
+    "apiId": "1300300"
+  },
+  {
+    "id": 82,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Barcelos",
+    "uf": "AM",
+    "apiId": "1300409"
+  },
+  {
+    "id": 83,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Barreirinha",
+    "uf": "AM",
+    "apiId": "1300508"
+  },
+  {
+    "id": 84,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Benjamin Constant",
+    "uf": "AM",
+    "apiId": "1300607"
+  },
+  {
+    "id": 85,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Beruri",
+    "uf": "AM",
+    "apiId": "1300631"
+  },
+  {
+    "id": 86,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Boa Vista do Ramos",
+    "uf": "AM",
+    "apiId": "1300680"
+  },
+  {
+    "id": 87,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Boca do Acre",
+    "uf": "AM",
+    "apiId": "1300706"
+  },
+  {
+    "id": 88,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Borba",
+    "uf": "AM",
+    "apiId": "1300805"
+  },
+  {
+    "id": 89,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Caapiranga",
+    "uf": "AM",
+    "apiId": "1300839"
+  },
+  {
+    "id": 90,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Canutama",
+    "uf": "AM",
+    "apiId": "1300904"
+  },
+  {
+    "id": 91,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Carauari",
+    "uf": "AM",
+    "apiId": "1301001"
+  },
+  {
+    "id": 92,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Careiro",
+    "uf": "AM",
+    "apiId": "1301100"
+  },
+  {
+    "id": 93,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Careiro da Várzea",
+    "uf": "AM",
+    "apiId": "1301159"
+  },
+  {
+    "id": 94,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Coari",
+    "uf": "AM",
+    "apiId": "1301209"
+  },
+  {
+    "id": 95,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Codajás",
+    "uf": "AM",
+    "apiId": "1301308"
+  },
+  {
+    "id": 96,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Eirunepé",
+    "uf": "AM",
+    "apiId": "1301407"
+  },
+  {
+    "id": 97,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Envira",
+    "uf": "AM",
+    "apiId": "1301506"
+  },
+  {
+    "id": 98,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Fonte Boa",
+    "uf": "AM",
+    "apiId": "1301605"
+  },
+  {
+    "id": 99,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Guajará",
+    "uf": "AM",
+    "apiId": "1301654"
+  },
+  {
+    "id": 100,
+    "createdAt": "2023-04-13T12:25:17.737Z",
+    "updatedAt": "2023-04-13T12:25:17.737Z",
+    "name": "Humaitá",
+    "uf": "AM",
+    "apiId": "1301704"
+  }
+]

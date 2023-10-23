@@ -11,14 +11,16 @@ import {
 import { KeycloakConfigService } from './common/infrastructure/server/keycloak/keycloak.config';
 import { ConfigModule } from '@nestjs/config';
 import { configuration } from './common/infrastructure/server/config/configuration';
-import { APP_GUARD, APP_INTERCEPTOR } from '@nestjs/core';
+import { APP_GUARD } from '@nestjs/core';
 import { CompanyConfigModule } from './common/infrastructure/server/adapters/company-config.module';
-import { CacheInterceptor, CacheModule } from '@nestjs/cache-manager';
+import { CacheModule } from '@nestjs/cache-manager';
+import { DollarModule } from './dollar/infrastructure/dollar.module';
 
 @Module({
   imports: [
     PrismaModule,
     KeycloakModule,
+    DollarModule,
     CacheModule.register({
       isGlobal: true,
       ttl: 5,
@@ -45,10 +47,6 @@ import { CacheInterceptor, CacheModule } from '@nestjs/cache-manager';
     {
       provide: APP_GUARD,
       useClass: RoleGuard,
-    },
-    {
-      provide: APP_INTERCEPTOR,
-      useClass: CacheInterceptor,
     },
   ],
   controllers: [AppController],
