@@ -6,14 +6,6 @@ export class CompanyConfig {
     private readonly freightConfig: FreightConfig,
   ) {}
 
-  getConfig(configPath: string) {
-    return configPath.split('.').reduce((acc, part) => {
-      if (acc) {
-        return typeof acc[part] === 'function' ? acc[part]() : acc[part];
-      }
-    }, this);
-  }
-
   getId() {
     return this.id;
   }
