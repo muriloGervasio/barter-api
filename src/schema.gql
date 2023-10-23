@@ -1,0 +1,18 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type FreightRequest {
+  value: Int!
+}
+
+type OriginRequest {
+  freights: [FreightRequest!]!
+  id: Int!
+  name: String!
+}
+
+type Query {
+  hello: String!
+  origin(id: Float!): OriginRequest!
+}

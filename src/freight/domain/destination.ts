@@ -6,8 +6,8 @@ export class Destination {
     private readonly id: number,
     private readonly name: string,
 
-    private readonly city: City,
-    private readonly freights: Freight[],
+    private readonly city?: City,
+    private readonly freights?: Freight[],
   ) {}
 
   getId() {

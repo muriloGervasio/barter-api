@@ -3,6 +3,6 @@ export class City {
     private readonly id: number,
     private readonly name: string,
     private readonly uf: string,
-    private readonly apiId: number,
+    private readonly apiId: string,
   ) {}
 }

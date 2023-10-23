@@ -14,6 +14,18 @@ export class Origin {
     return this.freights;
   }
 
+  getCity() {
+    return this.city;
+  }
+
+  getId() {
+    return this.id;
+  }
+
+  getName() {
+    return this.name;
+  }
+
   getFreightForDestination(destinationId: number) {
     return this.getFreights()
       .find((f) => f.getDestination().getId() === destinationId)

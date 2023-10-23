@@ -3,10 +3,9 @@ import { Origin } from './origin';
 
 export class Freight {
   constructor(
-    private readonly id: number,
-    private readonly origin: Origin,
-    private readonly destination: Destination,
     private readonly value: number,
+    private readonly origin?: Origin,
+    private readonly destination?: Destination,
   ) {}
 
   getValue() {

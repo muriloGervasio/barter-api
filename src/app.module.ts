@@ -15,11 +15,24 @@ import { APP_GUARD } from '@nestjs/core';
 import { CompanyConfigModule } from './common/infrastructure/server/adapters/company-config.module';
 import { CacheModule } from '@nestjs/cache-manager';
 import { DollarModule } from './dollar/infrastructure/dollar.module';
+import { FreightModule } from './freight/infrastructure/freight.module';
+import { GraphQLModule } from '@nestjs/graphql';
+import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
+import { join } from 'path';
+import { AppResolver } from './app.resolver';
 
 @Module({
   imports: [
     PrismaModule,
     KeycloakModule,
+    FreightModule,
+    GraphQLModule.forRoot<ApolloDriverConfig>({
+      driver: ApolloDriver,
+      autoSchemaFile: join(process.cwd(), 'src/schema.gql'),
+      sortSchema: true,
+      playground: true,
+    }),
+
     DollarModule,
     CacheModule.register({
       isGlobal: true,
@@ -36,6 +49,7 @@ import { DollarModule } from './dollar/infrastructure/dollar.module';
     }),
   ],
   providers: [
+    AppResolver,
     {
       provide: APP_GUARD,
       useClass: AuthGuard,
